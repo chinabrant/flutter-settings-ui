@@ -111,6 +111,7 @@ class _IOSSettingsTileState extends State<IOSSettingsTile> {
         style: TextStyle(
           color: theme.themeData.titleTextColor,
           fontSize: 13,
+          fontFamily: theme.themeData.fontFamily,
         ),
         child: widget.description!,
       ),
@@ -142,6 +143,7 @@ class _IOSSettingsTileState extends State<IOSSettingsTile> {
                   ? theme.themeData.trailingTextColor
                   : theme.themeData.inactiveTitleColor,
               fontSize: 17,
+              fontFamily: theme.themeData.fontFamily,
             ),
             child: widget.value!,
           ),
@@ -236,6 +238,7 @@ class _IOSSettingsTileState extends State<IOSSettingsTile> {
                                     ? theme.themeData.settingsTileTextColor
                                     : theme.themeData.inactiveTitleColor,
                                 fontSize: 16,
+                                fontFamily: theme.themeData.fontFamily,
                               ),
                               child: widget.title!,
                             ),

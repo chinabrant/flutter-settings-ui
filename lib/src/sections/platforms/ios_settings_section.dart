@@ -42,6 +42,7 @@ class IOSSettingsSection extends StatelessWidget {
                 style: TextStyle(
                   color: theme.themeData.titleTextColor,
                   fontSize: 13,
+                  fontFamily: theme.themeData.fontFamily,
                 ),
                 child: title!,
               ),

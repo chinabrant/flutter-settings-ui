@@ -39,6 +39,7 @@ class WebSettingsSection extends StatelessWidget {
                 style: TextStyle(
                   color: theme.themeData.titleTextColor,
                   fontSize: 15,
+                  fontFamily: theme.themeData.fontFamily,
                 ),
                 child: title!,
               ),

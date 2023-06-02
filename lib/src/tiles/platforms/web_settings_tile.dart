@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:settings_ui/settings_ui.dart';
 
@@ -85,6 +84,7 @@ class WebSettingsTile extends StatelessWidget {
                             color: theme.themeData.settingsTileTextColor,
                             fontSize: 18,
                             fontWeight: FontWeight.w400,
+                            fontFamily: theme.themeData.fontFamily,
                           ),
                           child: title ?? Container(),
                         ),
@@ -94,6 +94,7 @@ class WebSettingsTile extends StatelessWidget {
                             child: DefaultTextStyle(
                               style: TextStyle(
                                 color: theme.themeData.tileDescriptionTextColor,
+                                fontFamily: theme.themeData.fontFamily,
                               ),
                               child: value!,
                             ),
@@ -104,6 +105,7 @@ class WebSettingsTile extends StatelessWidget {
                             child: DefaultTextStyle(
                               style: TextStyle(
                                 color: theme.themeData.tileDescriptionTextColor,
+                                fontFamily: theme.themeData.fontFamily,
                               ),
                               child: description!,
                             ),

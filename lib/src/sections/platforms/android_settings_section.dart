@@ -41,6 +41,7 @@ class AndroidSettingsSection extends StatelessWidget {
           child: DefaultTextStyle(
             style: TextStyle(
               color: theme.themeData.titleTextColor,
+              fontFamily: theme.themeData.fontFamily,
             ),
             child: title!,
           ),
